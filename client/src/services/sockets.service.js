@@ -2,7 +2,7 @@ import io from 'socket.io-client';
 
 const url =
   process.env.NODE_ENV === 'production'
-    ? 'https://bidshot.herokuapp.com/'
+    ? 'https://cricket-auction-cloud.herokuapp.com/'
     : 'http://localhost:8000/';
 let socket;
 

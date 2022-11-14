@@ -2,7 +2,7 @@ const axios = require('axios');
 
 const url =
   process.env.NODE_ENV === 'production'
-    ? 'https://bidshot.herokuapp.com/'
+    ? 'https://cricket-auction-cloud.herokuapp.com/'
     : 'http://localhost:8000/';
 
 const axiosInstance = axios.create({
